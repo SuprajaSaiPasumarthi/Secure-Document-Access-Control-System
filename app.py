@@ -1,4 +1,5 @@
-
+from flask import Flask
+app=Flask(__name__)
 import sqlite3
 from datetime import datetime
 from werkzeug.security import generate_password_hash, check_password_hash
